@@ -2,7 +2,7 @@
 
 This documentation covers just the configuration of the Prooph Service Bus in Symfony.
 To inform yourself about the ProophServiceBus please have a look at the
-[official documentation](http://getprooph.org/service-bus/intro.html).
+[official documentation](http://getprooph.org/docs/html/service-bus/overview.html).
 
 ## Download the Bundle
 
@@ -108,7 +108,7 @@ The result is the same, so it's up to your personal preference which option you 
 
 ### Add a plugin
 
-[Plugins](http://getprooph.org/service-bus/plugins.html) are a great way to expand a message bus. 
+[Plugins](http://getprooph.org/docs/html/service-bus/plugins.html) are a great way to expand a message bus.
 Let's assume that we want to use the `HandleCommandStrategy` for our command bus.
 Again, there are two options to do this.
 Both require to define a service for the plugin:
